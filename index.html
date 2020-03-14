@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    
-    <ul id="tabs">
-        <li>
-            <a href="#section1">
-            <div class="header">Section One</div></a>
-            <div id="section1" class="content show">
-                <p>hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello</p>
-            </div>
-        </li>
-        <li>
-            <a href="#section2">
-            <div class="header">Section Two</div></a>
-            <div id="section2" class="content">
-                <p>hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello</p>
-            </div>
-        </li>
-        <li>
-            <a href="#section3">
-            <div class="header">Section Three</div></a>
-            <div id="section3" class="content">
-                <p>hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello</p>
-            </div>
-        </li>
-    </ul>
-
-    <script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous">
-    </script>
-    
-    <script src="main.js"></script>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <p id="message">A Simple Accordian</p>
+        <ul id="tabs">
+            <li>
+                <a href="#section1">
+                <div class="header">Section One<span id="pressHere"> (press here)</span></div></a>
+                <div id="section1" class="content show">
+                    <p>It's passion that steers the pen<br/>
+                    an emotion of which I'm void.<br/>
+                    I cry out to the Gods to move my hand<br/>
+                    but they don't even seem annoyed.</p>
+                </div>
+            </li>
+            <li>
+                <a href="#section2">
+                <div class="header">Section Two<span id="pressHere"> (press here)</span></div></a>
+                <div id="section2" class="content">
+                    <p>Why bother, I ask myself?<br/>
+                    It's no crime to be no one.<br/>
+                    There are many unread books upon the shelf<br/>
+                    like you will be when your years are done</p>
+                </div>
+            </li>
+            <li>
+                <a href="#section3">
+                <div class="header">Section Three<span id="pressHere"> (press here)</span></div></a>
+                <div id="section3" class="content">
+                    <p>But should I succumb?  Should I give in?<br/>
+                    Is the order of success too tall?<br/>
+                    Just to continue is to win<br/>
+                    and perhaps there's more in me after all</p>
+                </div>
+            </li>
+        </ul>
+        <p id="message">Writtin in HTML, CSS, and JavaScript</p>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+        </script>
+        <script src="main.js"></script>
+    </body>
 </html>
